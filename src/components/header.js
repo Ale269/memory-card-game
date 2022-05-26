@@ -8,7 +8,9 @@ const Header = () => {
       </div>
       <div className="game-explanation">
         <p>
-          Here will be displayed the explanation of the game and how to play it
+          Click on each image but only once for each of them. <br />
+          Each clicked image will increase the score by one point. <br />
+          If you click the same image twice, the score will return to zero.
         </p>
       </div>
     </header>

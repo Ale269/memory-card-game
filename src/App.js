@@ -1,9 +1,9 @@
-import "../style/App.css";
+import "./style/App.css";
 import React, { useState, useEffect } from "react";
-import Header from "./header.js";
-import Score from "./score.js";
-import Display from "./display.js";
-import initialCardModels from "./cardModels.js";
+import Header from "./components/header.js";
+import Score from "./components/score.js";
+import Display from "./components/display.js";
+import initialCardModels from "./components/cardModels.js";
 let _ = require("lodash");
 
 const App = () => {
@@ -78,10 +78,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <Score score={score} bestScore={bestScore} />
-      <button className="reset-game" onClick={resetGame}>
-        Reset the game
-      </button>
+      <div className="setting-score">
+        <Score score={score} bestScore={bestScore} />
+        <button className="reset-game" onClick={resetGame}>
+          Reset the game
+        </button>
+      </div>
       <div
         className="card-container"
         onClick={(event) => {
