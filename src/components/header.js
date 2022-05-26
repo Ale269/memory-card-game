@@ -1,10 +1,13 @@
 import React from "react";
+import Favicon from "../img/favicon.png";
 
 const Header = () => {
   return (
     <header>
       <div className="logo">
-        <h3>logo</h3>
+        <h3>
+          <img src={Favicon} alt="logo" width="50px" />
+        </h3>
       </div>
       <div className="game-explanation">
         <p>

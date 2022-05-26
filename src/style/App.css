@@ -6,11 +6,12 @@
 }
 
 body {
-  background: rgb(154, 34, 195);
+  background: rgb(54, 7, 61);
+  padding: 10px;
   background: linear-gradient(
     0deg,
-    rgba(154, 34, 195, 1) 0%,
-    rgba(1, 51, 80, 1) 100%
+    rgba(54, 7, 61, 1) 0%,
+    rgba(21, 19, 38, 1) 100%
   );
 }
 
@@ -19,6 +20,12 @@ header {
   max-width: 1000px;
   margin: 30px auto;
   color: #8ad41d;
+  border: 2px solid #8ad41d;
+  border-radius: 5px;
+}
+
+.logo {
+  margin-bottom: 20px;
 }
 
 .game-explanation {
@@ -33,7 +40,7 @@ header {
     rgba(138, 212, 29, 1) 0%,
     rgba(252, 255, 64, 1) 100%
   );
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   border-radius: 5px;
 }
@@ -58,7 +65,7 @@ header {
 
 .setting-score button {
   background: #8ad41d;
-  color: rgba(1, 51, 80, 1);
+  color: rgba(12, 12, 42, 1);
   position: relative;
   border: none;
   border-radius: 30px;
